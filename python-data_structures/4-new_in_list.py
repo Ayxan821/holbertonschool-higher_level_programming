@@ -2,9 +2,9 @@
 
 
 def new_in_list(my_list, idx, element):
-    """Return a new list with the element at idx replaced by element if idx valid.
+    """Return copy of list with element replaced at idx if idx is valid.
 
-    If idx is invalid (negative or out of range), returns a copy of the original list.
+    If idx is negative or out of range, return copy of original list.
     """
     new_list = my_list[:]
     if idx < 0 or idx >= len(my_list):
