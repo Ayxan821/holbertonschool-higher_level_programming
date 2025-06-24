@@ -62,7 +62,3 @@ class Rectangle:
         for _ in range(self.height):
             lines.append("#" * self.width)
         return "\n".join(lines)
-
-    def __repr__(self):
-        """Return the official string representation of the rectangle."""
-        return f"{self.__class__.__name__}({self.width}, {self.height})"
