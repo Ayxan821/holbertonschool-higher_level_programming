@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Module 7-rectangle: defines a Rectangle class with width, height, area, perimeter, and string representation."""
+
 
 class Rectangle:
     """Defines a rectangle with width and height."""
